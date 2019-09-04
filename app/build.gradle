@@ -33,12 +33,13 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation "com.squareup.retrofit2:retrofit:$versions_retrofit"
-    implementation "com.squareup.retrofit2:converter-gson:$versions_retrofit"
-    implementation "com.squareup.retrofit2:adapter-rxjava2:$versions_retrofit"
-    //RxAndroid，会自动依赖RxJava
-    implementation "io.reactivex.rxjava2:rxandroid:$versions_rxandroid"
+    implementation "com.squareup.retrofit2:retrofit:2.5.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.5.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.5.0"
+
+//    //RxAndroid，会自动依赖RxJava
+//    implementation "io.reactivex.rxjava2:rxandroid:$versions_rxandroid"
 
     //OkHttp Logging Interceptor
-    implementation "com.squareup.okhttp3:logging-interceptor:$versions_logging_interceptor"
+    implementation "com.squareup.okhttp3:logging-interceptor:3.12.0"
 }
